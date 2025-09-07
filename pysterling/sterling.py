@@ -121,3 +121,13 @@ class sterling(numbers.Number):
 		pounds_float = scaled / 256
 		pence = int(round(pounds_float * 100))
 		return sterling.from_pence(pence)
+
+if __name__ == '__main__':
+	filename = 'money.bin'
+	with open(filename, 'wb') as f:
+		money = sterling('£88928.71')
+		f.write(b'STER')
+		f.write(b'\x00' * 4)
+		f.write(money.to_bytes())
+		money = sterling('£88928792.71')
+		f.write(money.to_bytes())

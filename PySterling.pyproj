@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>becb6f09-911d-48ae-9ed6-71dcaa565534</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>pysterling\archaic.py</StartupFile>
+    <StartupFile>pysterling\sterling.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
