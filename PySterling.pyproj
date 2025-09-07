@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>becb6f09-911d-48ae-9ed6-71dcaa565534</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>pysterling\sterling.py</StartupFile>
+    <StartupFile>pysterling\archaic.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,7 +24,9 @@
     <Folder Include="pysterling\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="pysterling\archaic.py" />
     <Compile Include="pysterling\sterling.py" />
+    <Compile Include="pysterling\vat.py" />
     <Compile Include="pysterling\__init__.py" />
   </ItemGroup>
   <ItemGroup>
